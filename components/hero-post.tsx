@@ -13,7 +13,7 @@ export default function HeroPost({
 }) {
   return (
     <section>
-      <div className="mb-8 md:mb-16">
+      <div className="mb-8 md:mb-16 w-[40%]">
         {coverImage && (
           <CoverImage title={title} coverImage={coverImage} slug={slug} />
         )}
